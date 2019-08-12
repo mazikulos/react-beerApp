@@ -10,7 +10,7 @@ export class Beers extends Component {
             ));
         } else {
             return (
-                <div>NO BEER</div>
+                <div>NO BEERs</div>
             )
         }
     }
