@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Roboto:400,700&display=swap&subset=latin-ext');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Anton', Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.container {
+  padding: 0 1rem;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  background: #555;
+  color: #fff;
+  padding: 7px 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #666;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 15px 0;
+  margin-bottom: 30px;
+}
+
+.beers {
+  margin-bottom: 50px;
+}
+.beer:not(:last-of-type) {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 30px;
+}
+.beer__description {
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+}
+.beer__image-wrapper {
+  border: 1px dashed #333;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+}
+.beer__image {
+  max-width: 100%;
+  max-height: 200px;
+}
+.filters {
+  margin-bottom: 30px;
+}
+.filter-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+.form-control--filter {
+  width: auto;
+}
